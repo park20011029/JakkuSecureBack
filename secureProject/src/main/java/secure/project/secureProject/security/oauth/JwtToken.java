@@ -1,4 +1,4 @@
-package secure.project.secureProject.security.jwt;
+package secure.project.secureProject.security.oauth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,7 +8,7 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 public class JwtToken {
-    private String grantType; //JWT에 대한 인증 타입
+    //private String grantType; //JWT에 대한 인증 타입
     private String accessToken;
     private String refreshToken;
 }

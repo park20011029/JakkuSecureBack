@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicUpdate;
-import secure.project.secureProject.enums.OrderState;
+import secure.project.secureProject.domain.enums.OrderState;
 
 import java.time.LocalDate;
 import java.util.List;

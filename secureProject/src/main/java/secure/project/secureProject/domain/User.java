@@ -5,7 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.DynamicUpdate;
-import secure.project.secureProject.enums.UserRole;
+import secure.project.secureProject.domain.enums.UserRole;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -41,6 +41,12 @@ public class User {
 
     @Column(nullable = false)
     private LocalDate updateAt;
+
+    @Column
+    private Boolean isLogin;
+
+    @Column
+    private String refreshToken;
 
     //---------------------------------------------------------
 

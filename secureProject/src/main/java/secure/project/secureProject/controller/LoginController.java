@@ -9,7 +9,7 @@ import secure.project.secureProject.dto.request.LoginSignUpRequestDto;
 import secure.project.secureProject.dto.request.SignInRequestDto;
 import secure.project.secureProject.dto.response.ResponseDto;
 import secure.project.secureProject.security.LoginService;
-import secure.project.secureProject.security.jwt.JwtToken;
+import secure.project.secureProject.security.oauth.JwtToken;
 
 @RestController
 @RequestMapping("/login")

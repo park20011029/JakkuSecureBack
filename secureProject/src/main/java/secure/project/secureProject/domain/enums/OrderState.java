@@ -1,4 +1,4 @@
-package secure.project.secureProject.enums;
+package secure.project.secureProject.domain.enums;
 
 public enum OrderState {
 

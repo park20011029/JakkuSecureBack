@@ -11,7 +11,7 @@ import secure.project.secureProject.domain.*;
 import secure.project.secureProject.dto.request.BasketAddItemRequestDto;
 import secure.project.secureProject.dto.request.CustomerOrderItemRequestDto;
 import secure.project.secureProject.dto.response.*;
-import secure.project.secureProject.enums.OrderState;
+import secure.project.secureProject.domain.enums.OrderState;
 import secure.project.secureProject.exception.ApiException;
 import secure.project.secureProject.exception.ErrorDefine;
 import secure.project.secureProject.repository.*;

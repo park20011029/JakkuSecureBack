@@ -10,11 +10,11 @@ import org.springframework.transaction.annotation.Transactional;
 import secure.project.secureProject.domain.User;
 import secure.project.secureProject.dto.request.LoginSignUpRequestDto;
 import secure.project.secureProject.dto.request.SignInRequestDto;
-import secure.project.secureProject.enums.UserRole;
+import secure.project.secureProject.domain.enums.UserRole;
 import secure.project.secureProject.exception.ApiException;
 import secure.project.secureProject.exception.ErrorDefine;
 import secure.project.secureProject.repository.UserRepository;
-import secure.project.secureProject.security.jwt.JwtToken;
+import secure.project.secureProject.security.oauth.JwtToken;
 import secure.project.secureProject.security.jwt.JwtTokenProvider;
 
 import java.time.LocalDate;

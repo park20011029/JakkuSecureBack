@@ -12,9 +12,8 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
-import secure.project.secureProject.enums.UserRole;
-import secure.project.secureProject.repository.CustomerItemRepository;
-import secure.project.secureProject.repository.UserRepository;
+import secure.project.secureProject.domain.enums.UserRole;
+import secure.project.secureProject.security.oauth.JwtToken;
 
 import java.security.Key;
 import java.util.Arrays;

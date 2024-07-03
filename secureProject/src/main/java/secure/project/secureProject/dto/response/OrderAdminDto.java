@@ -2,7 +2,7 @@ package secure.project.secureProject.dto.response;
 
 import lombok.Builder;
 import lombok.Getter;
-import secure.project.secureProject.enums.OrderState;
+import secure.project.secureProject.domain.enums.OrderState;
 
 import java.time.LocalDate;
 
